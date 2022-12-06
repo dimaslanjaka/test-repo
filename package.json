@@ -8,10 +8,12 @@
     "postinstall": "node postinstall.js"
   },
   "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "git-command-helper": "https://github.com/dimaslanjaka/git-command-helper",
     "hexo-post-parser": "git+https://github.com/dimaslanjaka/hexo-post-parser.git#master",
     "js-prototypes": "git+https://github.com/dimaslanjaka/js-prototypes.git#master",
     "nodejs-package-types": "git+https://github.com/dimaslanjaka/nodejs-package-types.git#main",
-    "git-command-helper": "https://github.com/dimaslanjaka/git-command-helper",
-    "persistent-cache": "https://github.com/dimaslanjaka/persistent-cache.git#improve2"
+    "persistent-cache": "https://github.com/dimaslanjaka/persistent-cache.git#improve2",
+    "upath": "^2.0.1"
   }
 }
